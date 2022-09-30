@@ -1,0 +1,61 @@
+Borders:
+
+A border in css is used to highlight some content or a button etc..
+
+<html>
+
+<head>
+
+    <style>
+        /* h1 {
+            border-style: solid;
+            border-width: 5px;
+            border-color: red;
+        } */
+
+        h1 {
+            border: solid 5px red
+        }
+
+        /* button {
+            border-style: solid;
+            border-width: 2px;
+            border-radius: 10px;
+
+        } */
+        /* 
+        h2 {
+            border-left-style: solid;
+            border-left-width: 10px;
+
+            border-bottom-style: solid;
+            border-top-style: solid;
+        } */
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Festival Offers: 60% off on All Products</h1>
+
+    <!-- <h2>This is a header</h2> -->
+
+    <!-- <button>Login</button> -->
+
+
+</body>
+
+</html>
+
+
+Margin:
+
+margin helps to align the html elements based on the requirement.
+
+padding:
+
+padding is used to align the content inside border.
+
+
+

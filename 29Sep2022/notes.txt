@@ -1,0 +1,261 @@
+External CSS:
+
+If we want to apply some css across multiple html pages, then we 
+can use external css.
+
+
+style.css:
+
+h1{
+    text-align: center;
+    color:white;
+    background-color: black
+}
+
+index.html:
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>DigitalLync</h1>
+
+</body>
+
+</html>
+
+
+login.html:
+
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>DigitalLync</h1>
+
+</body>
+
+</html>
+
+
+register.html:
+<html>
+
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>DigitalLync</h1>
+
+</body>
+
+</html>
+
+Colors:
+
+colors plays a major role in a web page because colors have a pychology that 
+reflects on human beings.
+
+css provides good support w.r.t colors in terms of css property.
+
+<html>
+
+
+<head>
+
+    <style>
+        thead {
+            /* background-color: darkblue; */
+            /* background-color: rgb(9, 6, 172); */
+            background-color: #0039e6;
+            color: white
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table border="1" width="50%">
+
+        <thead>
+
+            <th>Sno</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>City</th>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>abc</td>
+                <td>xyz</td>
+                <td>abc</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>abc</td>
+                <td>xyz</td>
+                <td>abc</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>abc</td>
+                <td>xyz</td>
+                <td>abc</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
+
+Background:
+
+If we want to specify background to a page use background property.
+
+
+<html>
+
+
+<head>
+
+    <style>
+        body {
+            /* background-image: url("https://study.com/cimages/multimages/16/burgerad15179945781952220614.png");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: fixed; */
+            background: url("https://study.com/cimages/multimages/16/burgerad15179945781952220614.png") no-repeat top right fixed;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+    <h1>Some content</h1>
+
+</body>
+
+</html>
+
+
+Problem Statement:
+
+Create a background image that occupies the complete page and on top of 
+the background image, create a login form.
+

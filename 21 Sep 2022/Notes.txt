@@ -1,0 +1,79 @@
+Environment Set up:
+
+1. Download and Install  Visual Studio Code 
+
+2. have multiple browsers.
+
+HTML: 
+
+Hypertext Mark up Language which is used to describe / develop 
+static web pages(99%).
+
+W3C - WorldWIdeWebConsortium 
+
+Internet  ->  access the data in the form an application from 
+anywhere.
+
+
+Mark up Language:
+
+It is a collection of tags.
+
+HTML Tag:
+
+A keyword that is enclosed in angular brackets is called as 
+tag.
+
+ ex:
+
+  <html>, <head>,<body>....
+
+  Every html element should have an opening and closing tag.
+
+HTML Document Structure:
+
+   <html>
+
+            <head>
+                    
+            </head>
+
+
+             <body>
+
+             </body>
+
+   </html>
+
+
+
+Study Plan:
+
+Discipline:
+
+1. Preparation for the next class.
+
+2. Self Documentation
+
+3. Self Exploration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

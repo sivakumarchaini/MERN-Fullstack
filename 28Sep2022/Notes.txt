@@ -1,0 +1,220 @@
+CSS: 
+
+Cascading Style Sheets , used for designing / beautifying the web pages.
+
+CSS Selectors:
+
+CSS provides different types of selectors to apply css on the elements.
+
+CSS selectors can be used with internal and external css only.
+
+element selector:
+
+element{
+    property : value
+}
+
+
+<html>
+
+<head>
+
+    <style>
+        h1 {
+            text-align: center;
+            color: brown
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Header 1</h1>
+    <h1>Header 2</h1>
+
+</body>
+
+</html>
+
+
+when we have multiple elements to use same css at element level use the following.
+
+<html>
+
+<head>
+
+    <style>
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: brown
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Header 1</h1>
+    <h1>Header 2</h1>
+    <h2>Header h2</h2>
+    <h3>Header h3</h3>
+
+</body>
+
+</html>
+
+
+class selector:
+
+classname{
+    property:value
+}
+
+<html>
+
+<head>
+
+    <style>
+        .center_brown {
+            text-align: center;
+            color: brown
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Header 1</h1>
+    <h1 class="center_brown">Header 2</h1>
+    <h2>Header h2</h2>
+    <h3 class="center_brown">Header h3</h3>
+
+</body>
+
+</html>
+
+
+If we want to have multiple CSS classes to be used on the element, use a 
+space to define them.
+
+<html>
+
+<head>
+
+    <style>
+        .center_brown {
+            text-align: center;
+            color: brown
+        }
+
+        .background_grey {
+            background-color: grey
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Header 1</h1>
+    <h1 class="center_brown background_grey">Header 2</h1>
+    <h2>Header h2</h2>
+    <h3 class="center_brown">Header h3</h3>
+
+</body>
+
+</html>
+
+
+id selector:
+
+#id{
+  property: value
+}
+
+<html>
+
+<head>
+
+    <style>
+        #header1 {
+            color: red
+        }
+
+
+        #header2 {
+            color: green
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 id="header1">Header 1</h1>
+    <h1 id="header2">Header 2</h1>
+    <h2>Header h2</h2>
+    <h3 class="center_brown">Header h3</h3>
+
+</body>
+
+</html>
+
+
+Differences between id and class.
+
+ids are specifically used for the purpose of identifying an element uniquely.
+
+<h1 id="head1">Header 1</h1>
+
+<h1 id="head2">Header 2</h1>
+
+Types of CSS:
+
+There are 3 types of CSS.
+
+1. Inline : it is applicable for a specific element. 
+
+we use style attribute to apply inline css.
+
+example:
+
+ <h1 style="text-align:center">Good Morning</h1>
+
+2. Internal : 
+
+it is applicable to all the elements in the file.
+
+
+<html>
+
+<head>
+
+    <!-- internal style sheets-->
+    <style>
+        h2 {
+            text-align: right;
+            color: red
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--Inline Style Sheet-->
+    <h1 style="text-align: center">Hello</h1>
+
+    <h2>Header 2</h2>
+    <h2>Header 3</h2>
+    <h2>Header 4</h2>
+    <h2>Header 5</h2>
+</body>
+
+</html>
+
+
+3. External 

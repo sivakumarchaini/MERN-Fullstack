@@ -1,0 +1,283 @@
+HTML Blocks:
+
+HTML provides 2 types of elements.
+
+1. Block level:
+
+Any element that starts in a new line, occupies the complete width of the page is 
+known as block level element.
+
+ex: h1 to h6, p...
+
+2. Inline:
+
+Any element that starts in the same line , occupies only the content level 
+width of the page is known as inline element.
+
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <h1>Header 1</h1>
+
+    <h1 style="background-color: yellow">Header 2</h1>
+
+    <input placeholder="username"> <input placeholder="password">
+
+    <span style="background-color: green">This is a span element</span>
+
+</body>
+
+</html>
+
+Classes:
+
+As part of global attributes, html class (global attribute) can be used 
+to specify some css.
+
+<html>
+
+<head>
+
+    <style>
+        .red_center {
+            color: red;
+            text-align: center
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 class="red_center">Header 1</h1>
+
+</body>
+
+</html>
+
+
+Ids:
+
+if we want to differentiate between mulitple elements using unique names, then 
+we can use id.
+
+<html>
+
+
+<body>
+
+    <h1 id="head1">Header 1</h1>
+    <h1 id="head2">Header 2</h1>
+    <h1 id="head3">Header 3</h1>
+
+</body>
+
+</html>
+
+
+HTML Tables:
+
+Tags:  <table> for creation of table,  <thead>  for creation of table header. 
+
+<tbody> for creation of table body.
+
+<tr> - table rows 
+
+<td> - table data cell 
+
+
+<html>
+
+<head>
+
+    <style>
+        th {
+            background-color: yellow
+        }
+
+        tr:nth-child(even) {
+            background-color: Lightgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <table border="1" width="100%">
+
+        <thead>
+            <th>Sno</th>
+            <th>Batter</th>
+            <th>Runs</th>
+            <th>Balls</th>
+            <th>Fours</th>
+            <th>Sixes</th>
+            <th>Strike Rate</th>
+
+        </thead>
+
+        <tbody style="text-align: center">
+
+            <tr>
+                <td>1</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>du Plessis (c)</td>
+                <td>103</td>
+                <td>59</td>
+                <td>10</td>
+                <td>6</td>
+                <td>174.58</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>
+
+
+HTML Lists:
+
+If we have a list of items, then we can display the list of items using 
+html lists.
+
+There are 2 types of lists,
+
+1. unordered - <ul>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+
+    <ul>
+        <li>Item 1</li>
+        <ul style="list-style-type: none">
+            <li>Item 1.1</li>
+            <li>Item 1.2</li>
+            <li>Item 1.3</li>
+            <li>Item 1.4</li>
+        </ul>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+</body>
+
+</html>
+
+2. ordered  - <ol>
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <ol type="1">
+
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+
+    </ol>
+
+</body>
+
+</html>
+
+
+Problem Statement:
+
+Create an online quiz page using ordered and unordered list.
+
+
+
+
+
+
+
+
+

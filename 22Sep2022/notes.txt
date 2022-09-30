@@ -1,0 +1,209 @@
+HTML Attributes:
+
+Every HTML element has attributes. 
+
+An attribute enhances the capability of a HTML element.
+
+ex:
+
+ <input type="text" id="username" placeholder="enter username">
+
+ From above, type id  placeholder are the attributes of input.
+
+ HTML provides 3 types of Attributes.
+
+ 1. Element Specific Attributes :
+
+  Some Elements have their own attributes which can be used only with those 
+  elements.
+
+example:
+
+ <input type="text" placeholder="username here">
+
+ type, placeholder are element Specific attributes.
+
+ Ref:  https://www.w3schools.com/tags/tag_input.asp
+
+ <img src ="profile.jpg">
+
+ src attribute is a element Specific attribute of img tag.
+
+
+ 2. Global Attributes :
+
+ These attributes are not specific to any elements and can be used with any 
+ HTML element.
+
+ex:  id, style,class, lang...
+
+https://www.w3schools.com/tags/ref_standardattributes.asp
+
+<html>
+
+<head>
+    <style>
+        .red_center {
+            text-align: center;
+            color: red
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1 style="text-align: center"> Digital Lync</h1>
+    <p class="red_center"> This is a paragraph!</p>
+    <h3 class="red_center">This is another header</h3>
+</body>
+
+</html>
+
+
+ 3. Event Attributes:
+
+   if  any action need to be performed on an HTML element, then we can use 
+   event attributes.
+
+   event attributes help HTML to connect with javascript.
+
+https://www.w3schools.com/tags/ref_eventattributes.asp
+
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <button onclick="displayGreetings()">Greetings</button>
+
+    <button onclick="login()">Login</button>
+
+    <input oncopy="return false" onpaste="return false" placeholder="enter account number" type="number">
+
+    <script>
+        function displayGreetings() {
+            alert("Good Morning! Have a great day!");
+        }
+        function login() {
+            alert("Login function called");
+        }
+
+    </script>
+
+</body>
+
+</html>
+
+From the above, onclick oncopy onpaste are the event attributes.
+
+HTML Headings:
+
+HTML provides 6 headings ranging from h1 to h6.
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+
+</body>
+
+</html>
+
+
+paragraphs:
+
+use <p> tag for paragraphs.
+
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <p style="font-family: cursive">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop
+        from one store to another in
+        search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart
+        houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and
+        mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern
+        furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing
+        machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home
+        furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all
+        covered. You name it, and you can stay assured about finding them all here. For those of you with erratic
+        working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This
+        e-commerce never shuts down.</p>
+
+</body>
+
+</html>
+
+
+
+HTML Styles:
+
+we use style attribute to represent html styles.
+
+
+HTML Comments:
+
+<html>
+
+<head>
+
+
+    <!-- This is the title of the page-->
+    <title>DigitalLync</title>
+
+</head>
+
+<body>
+
+    <!--
+         This is a paragraph!!
+     -->
+
+    <p style="font-family: cursive">E-commerce is revolutionizing the way we all shop in India. Why do you want to hop
+        from one store to another in
+        search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart
+        houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and
+        mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern
+        furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing
+        machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home
+        furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all
+        covered. You name it, and you can stay assured about finding them all here. For those of you with erratic
+        working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This
+        e-commerce never shuts down.</p>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
